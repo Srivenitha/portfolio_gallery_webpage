@@ -178,3 +178,51 @@ background: linear-gradient(135deg, #f0f0f0, #ffffff);
     font-weight: bold;
     border-radius:7px;
 }
+
+.theme-btn{
+    float:right;
+    margin:8px 20px;
+    padding:8px 12px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background:white;
+}
+
+.dark-mode{
+    background:#181818;
+    color:white;
+}
+
+
+.dark-mode .product-card{
+    background:#b16f6f;
+}
+
+.dark-mode .product-card:hover{
+    background:#202020;
+}
+
+
+.darkmode .btn active{
+	background:#202020;
+	color:white;
+}
+
+.dark-mode #opt{
+    background:#333;
+    color:white;
+}
+
+.dark-mode .head1{
+    color:white;
+}
+
+.dark-mode .product-price{
+    color:#66ff99;
+}
+
+.dark-mode .navbar a,
+.dark-mode .subnavbtn{
+    color:white;
+}
